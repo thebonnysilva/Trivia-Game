@@ -1,0 +1,243 @@
+/* Write your CSS Here. */
+body {
+    font-family: "Raleway", "Helvetica", sans-serif;
+    font-weight: 400;
+    height: 100%;
+    background-image: url(images/bulb-5258341_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 512px;
+    color: rgb(126, 207, 140);
+    font-weight: bolder;
+    display: inline;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-shadow: rgb(65, 38, 161);
+    font-size: 60px;
+
+}
+
+#startButton {
+    cursor: pointer;
+    margin-top: 10px;
+    border: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(63, 6, 6);
+    font-weight: bolder;
+    align-items: center;
+    text-shadow: rgb(65, 38, 161);
+    font-size: 20px;
+    border-style: groove;
+    border-inline-start-color: rgb(17, 205, 0);
+    border-inline-end-color: mediumslateblue;
+}
+
+div.start {
+    padding-top: 250px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#player {
+    border-style: none;
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 8px;
+    text-align: center;
+    background-color: rgb(222, 240, 225);
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(202, 176, 122, 0.966);
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-shadow: rgb(65, 38, 161);
+    font-size: 20px;
+}
+
+div.gameBoard {
+    border-radius: 4px;
+    overflow: hidden;
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#category-select {
+    text-align: center;
+    color: #0e1b20;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 5px 15px;
+    border-top: 1px solid #d7dbdd;
+    background-color: #eef3f5;
+}
+
+
+h3 {
+    text-align: center;
+    color: #e6adad;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 80px;
+}
+
+p#questions {
+    margin-bottom: 100px;
+    color: rgb(37, 25, 143);
+    font-style: italic;
+    background-color: rgb(159, 123, 167);
+}
+
+#answer {
+    text-align: center;
+    color: #634f3d8f;
+    font-size: 20px;
+    font-weight: 700;
+    border-left: px;
+    margin-top: 20px;
+    border-style: hidden;
+}
+
+
+
+#answerButton {
+    cursor: pointer;
+    margin-top: 5px;
+    border: 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(63, 6, 6);
+    font-weight: bolder;
+    align-items: center;
+    text-shadow: rgb(65, 38, 161);
+    font-size: 20px;
+    border-style: groove;
+    border-inline-start-color: rgb(17, 205, 0);
+    border-inline-end-color: mediumslateblue;
+}
+
+
+div.continueGame {
+    border-radius: 4px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.correctAnswer {
+    font-size: 30px;
+    border-radius: 4px;
+    max-width: 800px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+h4 {
+    text-align: center;
+    color: #addaa9;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: -181px;
+    padding-left: 50px;
+}
+
+
+p#points {
+    text-align: center;
+    color: #39e22a;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: -181px;
+    padding-left: 50px;
+}
+
+
+p#continueGame {
+    color: rgb(143, 132, 142);
+    margin-bottom: -200px;
+    margin-left: -180px;
+}
+
+
+div.endGame {
+    border-radius: 4px;
+    max-width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-top: -300px;
+    padding-left: 100px;
+
+}
+
+
+p#gameOver {
+    color: red;
+    padding-right: 400px;
+    margin-top: 320px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-right: -180px;
+}
+
+
+
+
+
+button#newGame {
+    cursor: pointer;
+    border: 3px;
+    margin-top: 300px;
+    margin-right: -390px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(63, 6, 6);
+    font-weight: bolder;
+    align-items: center;
+    text-shadow: rgb(65, 38, 161);
+    font-size: 20px;
+    border-style: groove;
+    border-inline-start-color: rgb(17, 205, 0);
+    border-inline-end-color: mediumslateblue;
+}
+
+
+span {
+    opacity: 0;
+    transition: all 0.4s ease;
+}
+
+
+span.fade {
+    opacity: 1;
+}
